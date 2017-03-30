@@ -1,0 +1,32 @@
+#include<iostream>
+
+using namespace std;
+
+struct CLLNode{
+    int value;
+CLLNode*prev;
+CLLNode*next;
+};
+
+struct CLL{
+CLLNode*head;
+CLLNode*tail;
+};
+
+bool isEmpty(CLL*cll){
+return cll -> head == NULL && cll -> tail == NULL;
+}
+
+void addFirst (int value,CLL*cll){
+CLLNode*newnode;}
+
+int main(){
+CLL*cll;
+addFirst(10,cll);
+cout<<"Head Value : "<<cll -> head -> value;
+cout<<endl;
+cout<<"Tail Value : "<<cll -> tail -> value;
+cout<<endl;
+
+return 0;
+}
